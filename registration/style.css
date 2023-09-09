@@ -34,16 +34,16 @@ main{
     width: 534px;
     height: 534px;
     border-radius: 50%;
-    left: 420px;
+    left: 417px;
     top: 58px;
     background: white;
     box-shadow: 0px 4px 70px 6px black;
     
 }
 .register-form-container{
-    opacity: 1;
+    opacity: 2;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     max-width: 415px;
     width: 100%;
     background: #FFFFFF;
@@ -68,6 +68,20 @@ main{
     margin-bottom: 13px;
 }
 .button{
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    height: 35px;
+    width: 100%;
+    background: black;
+    border-radius: 50px;
+    color: darkorange;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+}
+.button-google{
     font-weight: bold;
     font-size: 14px;
     display: block;
